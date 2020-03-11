@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5667CA202834C900230520 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5667C9202834C900230520 /* ThirdViewController.swift */; };
+		CA722F632059A05000014EF7 /* RacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA722F622059A05000014EF7 /* RacesTableViewController.swift */; };
+		CAB5407920315DC100740829 /* GlobalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5407720315DC100740829 /* GlobalPicker.swift */; };
+		CAB5407A20315DC100740829 /* MyThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5407820315DC100740829 /* MyThemes.swift */; };
+		CAB5407E20316B8B00740829 /* SelectThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5407D20316B8B00740829 /* SelectThemeViewController.swift */; };
+		CAB5408520316C3C00740829 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5408020316C3B00740829 /* BaseCell.swift */; };
+		CAB5408720316C3C00740829 /* SwitchNightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5408220316C3C00740829 /* SwitchNightCell.swift */; };
+		CAB5408820316C3C00740829 /* ChangeThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5408320316C3C00740829 /* ChangeThemeCell.swift */; };
+		CAB5408920316C3C00740829 /* SelectThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5408420316C3C00740829 /* SelectThemeCell.swift */; };
 		CE7B3E56202B4EC300E76E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B3E55202B4EC300E76E65 /* AppDelegate.swift */; };
 		CE7B3E58202B4EC300E76E65 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B3E57202B4EC300E76E65 /* FirstViewController.swift */; };
 		CE7B3E5A202B4EC300E76E65 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B3E59202B4EC300E76E65 /* SecondViewController.swift */; };
 		CE7B3E5D202B4EC300E76E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B3E5B202B4EC300E76E65 /* Main.storyboard */; };
 		CE7B3E5F202B4EC300E76E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B3E5E202B4EC300E76E65 /* Assets.xcassets */; };
 		CE7B3E62202B4EC300E76E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B3E60202B4EC300E76E65 /* LaunchScreen.storyboard */; };
+		CE7B3E6A202B54F300E76E65 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CE7B3E69202B54F200E76E65 /* music.m4a */; };
+		EBBCBAEBA5B15A8FB0563BCB /* Pods_Assignment2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162EDFDA3581FEC36C7A5089 /* Pods_Assignment2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162EDFDA3581FEC36C7A5089 /* Pods_Assignment2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBAB5167E10D4BC405D82F0 /* Pods-Assignment2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment2/Pods-Assignment2.release.xcconfig"; sourceTree = "<group>"; };
+		CA5667C9202834C900230520 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CA722F622059A05000014EF7 /* RacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacesTableViewController.swift; sourceTree = "<group>"; };
+		CAB5407720315DC100740829 /* GlobalPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalPicker.swift; path = "../SwiftTheme-master/Demo/GlobalPicker.swift"; sourceTree = "<group>"; };
+		CAB5407820315DC100740829 /* MyThemes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyThemes.swift; path = "../SwiftTheme-master/Demo/MyThemes.swift"; sourceTree = "<group>"; };
+		CAB5407D20316B8B00740829 /* SelectThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectThemeViewController.swift; sourceTree = "<group>"; };
+		CAB5408020316C3B00740829 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		CAB5408220316C3C00740829 /* SwitchNightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchNightCell.swift; sourceTree = "<group>"; };
+		CAB5408320316C3C00740829 /* ChangeThemeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeThemeCell.swift; sourceTree = "<group>"; };
+		CAB5408420316C3C00740829 /* SelectThemeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectThemeCell.swift; sourceTree = "<group>"; };
 		CE7B3E52202B4EC300E76E65 /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7B3E55202B4EC300E76E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7B3E57202B4EC300E76E65 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +46,8 @@
 		CE7B3E5E202B4EC300E76E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7B3E61202B4EC300E76E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7B3E63202B4EC300E76E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7B3E69202B54F200E76E65 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = music.m4a; path = ../music.m4a; sourceTree = "<group>"; };
+		FC0DAB0DB7C53D79B81D68CB /* Pods-Assignment2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment2/Pods-Assignment2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBBCBAEBA5B15A8FB0563BCB /* Pods_Assignment2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DBA8498E415936F3406BEB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC0DAB0DB7C53D79B81D68CB /* Pods-Assignment2.debug.xcconfig */,
+				3DBAB5167E10D4BC405D82F0 /* Pods-Assignment2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E2F18608F60DE3286D179ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				162EDFDA3581FEC36C7A5089 /* Pods_Assignment2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB5407F20316C1700740829 /* Theme Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				CAB5408020316C3B00740829 /* BaseCell.swift */,
+				CAB5408320316C3C00740829 /* ChangeThemeCell.swift */,
+				CAB5408420316C3C00740829 /* SelectThemeCell.swift */,
+				CAB5408220316C3C00740829 /* SwitchNightCell.swift */,
+			);
+			path = "Theme Stuff";
+			sourceTree = "<group>";
+		};
 		CE7B3E49202B4EC300E76E65 = {
 			isa = PBXGroup;
 			children = (
 				CE7B3E54202B4EC300E76E65 /* Assignment2 */,
 				CE7B3E53202B4EC300E76E65 /* Products */,
+				0DBA8498E415936F3406BEB8 /* Pods */,
+				1E2F18608F60DE3286D179ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +111,20 @@
 		CE7B3E54202B4EC300E76E65 /* Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
+				CAB5407F20316C1700740829 /* Theme Stuff */,
 				CE7B3E55202B4EC300E76E65 /* AppDelegate.swift */,
+				CAB5407720315DC100740829 /* GlobalPicker.swift */,
+				CAB5407820315DC100740829 /* MyThemes.swift */,
 				CE7B3E57202B4EC300E76E65 /* FirstViewController.swift */,
 				CE7B3E59202B4EC300E76E65 /* SecondViewController.swift */,
+				CAB5407D20316B8B00740829 /* SelectThemeViewController.swift */,
 				CE7B3E5B202B4EC300E76E65 /* Main.storyboard */,
+				CE7B3E69202B54F200E76E65 /* music.m4a */,
 				CE7B3E5E202B4EC300E76E65 /* Assets.xcassets */,
 				CE7B3E60202B4EC300E76E65 /* LaunchScreen.storyboard */,
 				CE7B3E63202B4EC300E76E65 /* Info.plist */,
+				CA5667C9202834C900230520 /* ThirdViewController.swift */,
+				CA722F622059A05000014EF7 /* RacesTableViewController.swift */,
 			);
 			path = Assignment2;
 			sourceTree = "<group>";
@@ -74,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7B3E66202B4EC300E76E65 /* Build configuration list for PBXNativeTarget "Assignment2" */;
 			buildPhases = (
+				AFC450D9CBF43C425608A0AD /* [CP] Check Pods Manifest.lock */,
 				CE7B3E4E202B4EC300E76E65 /* Sources */,
 				CE7B3E4F202B4EC300E76E65 /* Frameworks */,
 				CE7B3E50202B4EC300E76E65 /* Resources */,
+				382196A7DB8CD1C0899D69E7 /* [CP] Embed Pods Frameworks */,
+				5C3D5A9A759FD2764A4EF8E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,11 +193,66 @@
 			files = (
 				CE7B3E62202B4EC300E76E65 /* LaunchScreen.storyboard in Resources */,
 				CE7B3E5F202B4EC300E76E65 /* Assets.xcassets in Resources */,
+				CE7B3E6A202B54F300E76E65 /* music.m4a in Resources */,
 				CE7B3E5D202B4EC300E76E65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		382196A7DB8CD1C0899D69E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Assignment2/Pods-Assignment2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assignment2/Pods-Assignment2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3D5A9A759FD2764A4EF8E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assignment2/Pods-Assignment2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC450D9CBF43C425608A0AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assignment2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE7B3E4E202B4EC300E76E65 /* Sources */ = {
@@ -140,7 +260,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7B3E5A202B4EC300E76E65 /* SecondViewController.swift in Sources */,
+				CAB5407920315DC100740829 /* GlobalPicker.swift in Sources */,
+				CA722F632059A05000014EF7 /* RacesTableViewController.swift in Sources */,
 				CE7B3E56202B4EC300E76E65 /* AppDelegate.swift in Sources */,
+				CAB5408820316C3C00740829 /* ChangeThemeCell.swift in Sources */,
+				CAB5407A20315DC100740829 /* MyThemes.swift in Sources */,
+				CAB5408520316C3C00740829 /* BaseCell.swift in Sources */,
+				CAB5408920316C3C00740829 /* SelectThemeCell.swift in Sources */,
+				CAB5408720316C3C00740829 /* SwitchNightCell.swift in Sources */,
+				CAB5407E20316B8B00740829 /* SelectThemeViewController.swift in Sources */,
+				CA5667CA202834C900230520 /* ThirdViewController.swift in Sources */,
 				CE7B3E58202B4EC300E76E65 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +405,7 @@
 		};
 		CE7B3E67202B4EC300E76E65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0DAB0DB7C53D79B81D68CB /* Pods-Assignment2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +420,7 @@
 		};
 		CE7B3E68202B4EC300E76E65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBAB5167E10D4BC405D82F0 /* Pods-Assignment2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
